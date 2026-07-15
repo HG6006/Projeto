@@ -1,11 +1,11 @@
 function toggleMode() {
   const html = document.documentElement
 
-  // if (html.classList.contains('light')) {
-  //   html.classList.remove('light')
+  //  if (html.classList.contains("light")) {
+  //  html.classList.remove("light")
   // } else {
-  //  html.classList.add('light')
-  // }
+  //  html.classList.add("light")
+  //}
 
   html.classList.toggle("light")
 
@@ -15,9 +15,9 @@ function toggleMode() {
   //subtituir a imagem
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/Avatar2.png")
+    img.setAttribute("src", "./assets/Duelo2.png")
   } else {
     //set tiver sem lght mode, manter a imagem normal
-    img.setAttribute("src", "./assets/Avatar1.png")
+    img.setAttribute("src", "./assets/Duelo1.png")
   }
 }
