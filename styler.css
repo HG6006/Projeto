@@ -34,7 +34,7 @@ background-size: cover;
 
   /*background:color image repeat position/size */
   background: var(--bg-url) no-repeat top center / cover;
-  height: 100vhh;
+  min-height: 100vh;
 }
 
 body * {
@@ -54,17 +54,21 @@ body * {
 }
 
 #profile img {
-  width: 112px;
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 a {
   display: block;
 }
 
-#profile p {
+#profile h1 {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 24px;
+  
 }
 
 #switch {
@@ -124,7 +128,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
   padding: 16px 24px;
 
   background: var(--surface-color);
